@@ -1,13 +1,13 @@
 {
   "name": "gs-unzip",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "fs-extra": "^0.26.5",
     "jszip": "^2.5.0"
   },
   "scripts": {
     "test": "./node_modules/xo/cli.js && ./node_modules/mocha/bin/mocha ",
-    "postversion" : "git push && git push --tags"
+    "postversion": "git push && git push --tags"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
