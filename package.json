@@ -6,7 +6,8 @@
     "jszip": "^2.5.0"
   },
   "scripts": {
-    "test": "./node_modules/xo/cli.js && ./node_modules/mocha/bin/mocha "
+    "test": "./node_modules/xo/cli.js && ./node_modules/mocha/bin/mocha ",
+    "postversion" : "git push && git push --tags"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
