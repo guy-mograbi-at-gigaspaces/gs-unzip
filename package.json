@@ -1,6 +1,6 @@
 {
   "name": "gs-unzip",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {
     "fs-extra": "^0.26.5",
     "jszip": "^2.5.0"
@@ -13,10 +13,11 @@
     "mocha": "^2.4.5",
     "xo": "^0.12.1"
   },
-  "xo" : {
-    "space" : 4,
-    "globals" : [ "it" , "describe" ]
-
+  "xo": {
+    "space": 4,
+    "globals": [
+      "it",
+      "describe"
+    ]
   }
-
 }
